@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gumroad Clone</title>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo"><img src="image1.png" alt=""></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="https://gumroad.com/about">About</a>
+            <a href="https://gumroad.com/features">Features</a>
+            <a href="https://gumroad.com/pricing">Pricing</a>
+        </nav>
+        <div class="header-btns">
+            <a href="https://app.gumroad.com/login">Log in</a>
+            <a href="https://app.gumroad.com/signup">Start selling</a>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <main><div class="search-bar">
+        <input type="text" placeholder="Search products">
+    </div>
+
+    <!-- Categories -->
+    <div class="boss">
+        <div class="one">All</div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Design</button>
+            <div class="dropdown-content">
+              <a href="https://gumroad.com/design">all design </a>
+              <a href="#">picture</a>
+              <a href="#">branding</a>
+              <a href="#">painting</a>
+              <a href="#">graphics</a>
+              <a href="#">entertainment & design</a>
+              <a href="#">fashion design </a>
+              <a href="#">fonts</a>
+              <a href="#">graphics</a>
+              <a href="#">icons</a>
+              <a href="#">industrial design</a>
+              <a href="#">print & packaging</a>
+              <img src="image4.png" alt="something">
+            </div>
+            
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">3D</button>
+                <div class="dropdown-content">
+                  <a href="#">All 3D</a>
+                  <a href="#">3D Assets</a>
+                  <a href="#">3D Modelling</a>
+                  <a href="#">Animating</a>
+                  <a href="#">AR/VR</a>
+                  <a href="#">Avatars</a>
+                  <a href="#">character design</a>
+                  <a href="#">rigging</a>
+                  <a href="#">textures</a>
+                  <a href="#">VR Chat</a>
+                  
+                  <img src="image2.png" alt="something">
+                </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Drawing & painting</button>
+                    <div class="dropdown-content">
+                      <a href="#">All drawing & painting</a>
+                      <a href="#">Artwork & commisions</a>
+                      <a href="#">DIgital illustration</a>
+                      <a href="#">traditional art</a>
+                      
+                      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0IiBoZWlnaHQ9IjE2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTU1LjE1OSAyNS45MzhjLTMuMTM5LTUuMDA1LTguNzI1LTcuODYzLTE1LjMzLTcuODYzYTIyLjM5NiAyMi4zOTYgMCAwIDAtNy41MzYgMS4yNyAxOS41MjUgMTkuNTI1IDAgMCAwLTUuNzYyLTEuNDYgMTMuODA3IDEzLjgwNyAwIDAgMC0zLjg1Ni0xMS45NDcgMTMuNzU1IDEzLjc1NSAwIDAgMC05LjczNS00LjA0IDEzLjY4MyAxMy42ODMgMCAwIDAtNy45OCAyLjU1NiAxNi4zMzggMTYuMzM4IDAgMCAwLTMuNjkzLS40MjRjLTQuMzQgMC04LjUwNCAxLjcyNy0xMS41NzMgNC44MDJBMTYuNDExIDE2LjQxMSAwIDAgMCA4NC45IDIwLjQyNnYuMTA2YTIyLjI2OCAyMi4yNjggMCAwIDAtOS45OCAxMS4wNzZjLS4xNjUuMzkzLS4zOTMuODU3LS42NCAxLjQxMmE1OS4wODIgNTkuMDgyIDAgMCAwLTMuNjQ2IDkuNTNjLTIuMDE0IDcuMDc4LTIuOTQ4IDE1LjYzLTIuODYyIDI2LjEwNSAwIC4xNS0uMDIzLjI5NS0uMDI3LjQ0NGwtLjU3NyAxOC42MTR2LjM2NmEyMi44MjkgMjIuODI5IDAgMCAwIDUuNDAyIDE0LjcxMiAyMi43NSAyMi43NSAwIDAgMCAxMy42MDYgNy43NDN2MjQuNzcxYTIyLjYzOSAyMi42MzkgMCAwIDAgNi42MSAxNS45NjggMjIuNTU2IDIyLjU1NiAwIDAgMCAxNS45MzggNi42MjUgMjIuMzc3IDIyLjM3NyAwIDAgMCA4LjYzNy0xLjcwOSAyMi40MiAyMi40MiAwIDAgMCA3LjMxNC00LjkwOCAyMi40NDIgMjIuNDQyIDAgMCAwIDQuODk4LTcuMzI1IDIyLjUwMSAyMi41MDEgMCAwIDAgMS43MDQtOC42NTF2LTI0Ljc3MWEyMi43NTcgMjIuNzU3IDAgMCAwIDEzLjYxNC03LjczNyAyMi44MjQgMjIuODI0IDAgMCAwIDUuNDA5LTE0LjcxNFY3MC4zMWMuMDQ3LS40OTEuMDY0LS45ODUuMDUxLTEuNDc4LS4wODgtMi43OTktLjAxNS01LjYuMjItOC4zOS44OTUtMTAuMzQ2IDMuODQ3LTE1Ljg5NCA0Ljk2MS0xNy45ODIuMi0uMzkzLjM5My0uNzM1LjU3My0xLjExNmExNi4wOTQgMTYuMDk0IDAgMCAwLS45NDYtMTUuNDA2WiIgZmlsbD0iI0ZGOTBFOCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz48cGF0aCBkPSJNMTAwLjcyNCAzNi42NGMuMDk0LS4zNSAxLjcxNS02LjAxNiA3Ljg4OC02LjI5MSA2LjM3OC0uMjggNi45OTggNi4zMSA2Ljk5OCA2LjMxczEuODE4LTYuNjAxIDkuMTA2LTYuMzE0YzcuMDY1LjI4IDUuODQ4IDUuOTY1IDUuNzc0IDYuMjkxLjE0OS0uMzUgMi42NDEtNi4wMDggOS40MTktNi4wMDggNS45MzkgMCA2LjYyNSA0LjQxMiA1LjY4MyA2LjM2Ni0uNzg0IDEuNjItNS40MjggOC45ODQtNi42NzIgMjMuMTk4LTUuOTE4LTcuNjU1LTEzLjE3Ni00LjAxOC0yNC40NDgtMi44Ny0xMS4yNzIgMS4xNDgtMTIuMjU3LTQuOTctMjAuNjY0LTkuNTU5LTguMjQyLTQuNTEtMTEuNTI0LTEuMjczLTExLjY0NS0xLjE1MWwtLjE1Ny0uMDQ0YzEuMjkxLTQuNTUzIDIuODEtNy4yNSAzLjc4My05LjUyMyAxLjE0My0yLjY3OCAzLjk0OS02LjU0NyA5LjQ2Ny02LjQwOSA2LjI0NS4xNTMgNS41MTkgNS42NTggNS40NjggNi4wMDRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0ibTEwMS4yNDYgNzAuMTQyLTIxLjYzOC4xMDZoLS4wMzlsLS4zNSAxMS4xODYtLjIyNyA3LjQyNGExMC45NjggMTAuOTY4IDAgMCAwIDMuMjA1IDcuNzQ2IDEwLjkyOSAxMC45MjkgMCAwIDAgNy43MzQgMy4yMDhoNC4yYTMuODc4IDMuODc4IDAgMCAxIDMuNTkgMi40Yy4xOTQuNDcyLjI5NS45NzguMjk1IDEuNDg5djMyLjM4N2ExMC44MTEgMTAuODExIDAgMCAwIDMuMTU2IDcuNjM2IDEwLjc2NyAxMC43NjcgMCAwIDAgNy42MjIgMy4xNjEgMTAuNzQyIDEwLjc0MiAwIDAgMCA3LjYyMi0zLjE0NSAxMC43OTcgMTAuNzk3IDAgMCAwIDMuMTQtNy42MzZ2LTMyLjM4N2EzLjg3NSAzLjg3NSAwIDAgMSAuMjk0LTEuNDg4IDMuODc0IDMuODc0IDAgMCAxIDMuNTgzLTIuNDAxaDQuMjA0YTEwLjkyMyAxMC45MjMgMCAwIDAgNy43MzQtMy4yMDcgMTAuOTU3IDEwLjk1NyAwIDAgMCAzLjIwNC03Ljc0N1Y2OS45NzNtLS4wMDktLjAxMy0zNi4zNjguMTc0TTc5LjU2IDgxLjQ0M2g1OC40NTMiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEwOC43ODggMTQwLjI5M2E0LjAxNSA0LjAxNSAwIDAgMCA0LjAxMS00LjAxOSA0LjAxNSA0LjAxNSAwIDAgMC00LjAxMS00LjAxOCA0LjAxNSA0LjAxNSAwIDAgMC00LjAxMiA0LjAxOCA0LjAxNSA0LjAxNSAwIDAgMCA0LjAxMiA0LjAxOVpNMTMwLjQ2NSAzNi42NmMuMTQ5LS4zNSAyLjY0MS02LjAwOCA5LjQyLTYuMDA4IDUuOTM4IDAgNi42MjUgNC40MTIgNS42ODMgNi4zNjYtLjc4NSAxLjYyLTUuNDI4IDguOTg0LTYuNjcyIDIzLjE5OGE4My4yMDUgODMuMjA1IDAgMCAwLS4yNTkgOS43NmgtLjA3OWMtMTEuNDMzIDAtMjQuNTY2LjA5NC0zNi4zNjguMTc2aC0uOTU3Yy04LjI2Ni4wNTUtMTUuODMuMTA2LTIxLjYzOC4xMDYtLjE2NS0xMS40MjYuOTgxLTE4LjY3NiAyLjQwMi0yMy42ODIgMS4yOTEtNC41NTMgMi44MS03LjI1IDMuNzg0LTkuNTIzIDEuMTQyLTIuNjc3IDMuOTQ4LTYuNTQ2IDkuNDY2LTYuNDA5IDYuMjQ1LjE1OCA1LjUxOSA1LjY2MiA1LjQ2OCA2LjAwOCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTAwLjcyMSAzNi42NmEuMDY0LjA2NCAwIDAgMSAwLS4wMmMuMDk1LS4zNSAxLjcxNi02LjAxNiA3Ljg4OS02LjI5MSA2LjM4Mi0uMjggNy4wMDIgNi4zMSA3LjAwMiA2LjMxczEuODE4LTYuNjAxIDkuMTA2LTYuMzE0YzcuMDY1LjI4IDUuODQ4IDUuOTY1IDUuNzczIDYuMjkxTTgyLjE1OCA0Ni42MmMuMTIyLS4xMjIgMy40MDMtMy4zNTggMTEuNjQ1IDEuMTUyIDguNDA3IDQuNTkzIDkuMzYxIDEwLjcxNSAyMC42MzMgOS41NjcgMTEuMjcyLTEuMTQ4IDE4LjUyOS00Ljc4NSAyNC40NDggMi44NyIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNOTQuMTg1IDY5Ljk4NmE4NS4zOSA4NS4zOSAwIDAgMSA0LjI0My0yOC4wNTRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTTk0LjE4NSA2OS45ODZhODUuMzkgODUuMzkgMCAwIDEgNC4yNDMtMjguMDU0IiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xMDkuMzUzIDY5Ljk4NmE4NS4zODUgODUuMzg1IDAgMCAxIDQuMjQzLTI4LjA1NFoiIGZpbGw9IiMwMDAiLz48cGF0aCBkPSJNMTA5LjM1MyA2OS45ODZhODUuMzg1IDg1LjM4NSAwIDAgMSA0LjI0My0yOC4wNTQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEwMS43NyA2OS45ODZhODUuMzg1IDg1LjM4NSAwIDAgMSA0LjI0My0yOC4wNTRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTTEwMS43NyA2OS45ODZhODUuMzg1IDg1LjM4NSAwIDAgMSA0LjI0My0yOC4wNTQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTg2LjYwOCA2OS45ODZhODUuMzkgODUuMzkgMCAwIDEgNC4yNDItMjguMDU0WiIgZmlsbD0iIzAwMCIvPjxwYXRoIGQ9Ik04Ni42MDggNjkuOTg2YTg1LjM5IDg1LjM5IDAgMCAxIDQuMjQyLTI4LjA1NCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTI0LjUyIDY5Ljk4NmE4NS4zMyA4NS4zMyAwIDAgMSA0LjIzOS0yOC4wNTRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTTEyNC41MiA2OS45ODZhODUuMzMgODUuMzMgMCAwIDEgNC4yMzktMjguMDU0IiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xMTYuOTQxIDY5Ljk4NmE4NS4zMyA4NS4zMyAwIDAgMSA0LjIzOS0yOC4wNTRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTTExNi45NDEgNjkuOTg2YTg1LjMzIDg1LjMzIDAgMCAxIDQuMjM5LTI4LjA1NCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTMyLjA5NiA2OS45ODZhODUuMjc4IDg1LjI3OCAwIDAgMSA0LjI0My0yOC4wNTRaIiBmaWxsPSIjMDAwIi8+PHBhdGggZD0iTTEzMi4wOTYgNjkuOTg2YTg1LjI3OCA4NS4yNzggMCAwIDEgNC4yNDMtMjguMDU0IiBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xMDEuMzA5IDI1LjkxNmE0LjY0MyA0LjY0MyAwIDAgMCA0LjYzOS00LjY0NyA0LjY0MyA0LjY0MyAwIDAgMC00LjYzOS00LjY0OCA0LjY0MyA0LjY0MyAwIDAgMC00LjY0IDQuNjQ4IDQuNjQzIDQuNjQzIDAgMCAwIDQuNjQgNC42NDdabTExLjg2Mi03LjgwNmMuOTg4IDAgMS43ODktLjgwMyAxLjc4OS0xLjc5NCAwLS45OS0uODAxLTEuNzkzLTEuNzg5LTEuNzkzLS45ODkgMC0xLjc5LjgwMy0xLjc5IDEuNzkzIDAgLjk5LjgwMSAxLjc5MyAxLjc5IDEuNzkzWiIgZmlsbD0iIzAwMCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=" alt="something">
+                    </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Self improvement</button>
+                        <div class="dropdown-content">
+                          <a href="#">All self improvement </a>
+                          <a href="#">Cooking</a>
+                          <a href="#">Crafts & DYI</a>
+                          <a href="#">Dating & Relationships</a>
+                          <a href="#">Outdoors</a>
+                          <a href="#">Philosophy</a>
+                          <a href="#">productivity </a>
+                          <a href="#">psychology</a>
+                          <a href="#">Sprituality</a>
+                          <a href="#">travel</a>
+                          <a href="#">wellness</a>
+                          <a href="#">weddings</a>
+                          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0IiBoZWlnaHQ9IjE2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTg5Ljg1NyA3Mi4yNDZoLTMuMDQ2bC00LjA3Ny0xMS4zMjVhMTUuMDg4IDE1LjA4OCAwIDAgMC03LjA5Ni04LjIwNSAxNS4wNjcgMTUuMDY3IDAgMCAwLTEwLjc2Mi0xLjMxOGgtLjExMWEzLjI2IDMuMjYgMCAwIDEtMy4yNDItMS41MWwtOS44MzctMTUuNTk2YTE1LjA4NyAxNS4wODcgMCAwIDAtNS41ODYtNi4xMzkgMTUuMDY5IDE1LjA2OSAwIDAgMC03Ljk4NS0yLjI1MmMtMTAuMjQ0LS4xMjYtMjkuNTM1IDQuNTI4LTQyLjI2NyAyMi40NDNhMTUuMTE2IDE1LjExNiAwIDAgMC00LjU3NC0uNTU5bC0yMi4yMDEuNzQtMTEuMjA0LTQuNzhhMjIuNjkgMjIuNjkgMCAwIDAtLjgxLS4zNDFsLS4zMzYtLjE0NmMtOS4xODgtMy44MzQtMTguODM0LTQuMjIxLTI3LjMwOC0xLjA0MmEzMC44OTggMzAuODk4IDAgMCAwLTE3LjQ0NyAxNi4yNGMtLjEuMjI2LS4yMDEuNDUzLS4yOTIuNjg0bC0zLjMwMiA4LjM2MmMtMS4wMDUgMi41MTUtMi41OTQgNy4yOS0yLjU5NCA3LjI5LS42NTggMi42Mi0zLjUxOCAxNS40Ny0uMTk2IDI3LjcxYTIwLjAzNiAyMC4wMzYgMCAwIDAtMy45NDUgMTEuOTU5IDIwLjE2OCAyMC4xNjggMCAwIDAgNS44OTkgMTQuMjE5IDIwLjEzIDIwLjEzIDAgMCAwIDE0LjIwNiA1LjkwNGgxMDIuMjcyYy4yNzItLjAyNS41NDgtLjA1LjgxNC0uMDg1aC4xMjFjLjI3MS0uMDQuNTM4LS4wODYuODA0LS4xMzZsLjE1Ni0uMDNjLjMwMi0uMDY2LjU5OC0uMTM2Ljg5NS0uMjE2aC4wNTVjLjI5Ny0uMDgxLjU4OC0uMTcyLjg4LS4yNzJoLjA1NWMuMjkyLS4xMDYuNTgzLS4yMTYuODY1LS4zMzJsLjEyLS4wNWMuMjc3LS4xMjEuNTQzLS4yNDIuODA5LS4zNzNoLjA0MWMuMjU2LS4xMzEuNTAyLS4yNjYuNzU0LS40MTJsLjIyMS0uMTI2Yy4yMzEtLjE0MS40NTctLjI4Mi42NzgtLjQyOGwuMjM3LS4xNjYuNDYyLS4zNDIuMjcxLS4yMDZjLjE5MS0uMTUxLjM3Ny0uMzEyLjU2My0uNDczbC4yNzctLjI0N2MuMTUxLS4xNC4yOTYtLjI4Ni40NDItLjQzMmE4LjQ4IDguNDggMCAwIDAgLjcxNC0uNzg1Yy4wNi0uMDcuMTI2LS4xNDEuMTg2LS4yMTYuMTgxLS4yMTcuMzU3LS40MzguNTAyLS42NjkuMDM2LS4wNTEuMDc2LS4xMDEuMTExLS4xNTYuMzg1LS41MjguNzM0LTEuMDgxIDEuMDQ2LTEuNjU2di0uMDRsLjAzLS4wNiAyMS42NzkuMTk2aDQ4Ljc1NmExNS4wNyAxNS4wNyAwIDAgMCAxMC42NjItNC40MjEgMTUuMDk4IDE1LjA5OCAwIDAgMCA0LjQxNy0xMC42NzJ2LTcuNjk3YTMxLjg5MyAzMS44OTMgMCAwIDAtOS4zMTktMjIuNDkgMzEuODMyIDMxLjgzMiAwIDAgMC0yMi40NjMtOS4zNDZaIiBmaWxsPSIjOTBBOEVEIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIvPjxwYXRoIGQ9Im0xNjcuNzQgNjYuMDM0IDcuNjY1IDIxLjMwNmgxMy42NDdhMTYuNzA3IDE2LjcwNyAwIDAgMSAxMS44MzYgNC44OTkgMTYuNzMyIDE2LjczMiAwIDAgMSA0LjkwMiAxMS44NDR2Ny42OTJoLTQ4LjI1NGwtNTEuOTQyLTUxLjk5YzExLjYzNi0xOS4zMTkgMzEuNzkyLTE4Ljc1IDMxLjc5Mi0xOC43NSIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJtMTM3LjMzNSA0MS4xMTUgMTAuNjQ2IDE2Ljg2OWExOC4zNCAxOC4zNCAwIDAgMCAxOC4yMTUgOC4zNTZsMS41MDgtLjIyNk0xMTIuMzQ2IDUxLjc2bDQ5LjQ0OSA1MC40MTUgNDMuNDI4LS4wNjEiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEzNi44MTggNzYuNTQzYzguNTE1LTE1LjMzOS41NjgtMzUuNTA4LjU2OC0zNS41MDhtNDUuNyA0Ni44OTdhNS4xMTggNS4xMTggMCAwIDEtNS4xMTIgNS4xMTdoLTExLjA1OGwtNC4wNjctNC42OTRhOS43MyA5LjczIDAgMCAwLTEwLjE3OC0zLjAxOWwtNS41MDkgMS41OW0tMjUuMTA2IDMyLjY2MUwyMS41NzggNzMuMTM3bDMuMzIzLTguNDA3YzMuOTE1LTguNjM5IDE0LjcwMi0xMi4zMjYgMjYuMTAyLTcuMTI0bDE0LjQzIDYuMTc4IDI1LjU0NC0uODVhMTIuOTggMTIuOTggMCAwIDAgMS41OCA5LjQzIDEyLjk1OSAxMi45NTkgMCAwIDAgNy42MDkgNS43ODNsMjYuNTc0IDIuNjg3czQuMjU4IDIyLjEzMS00LjY4NCAzOC43NTNabTIuOTgtOS4zNzlMMjQuOSA2NC43MjgiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEyNi43NDEgODAuODA4cy0yMi41NjQtMS43MDYtMzIuMzU1IDE0LjQ4OU01MC4zNzUgNTcuMzI4YTcuMTg2IDcuMTg2IDAgMCAwIDMuNDUzIDguNTEzbDkuOTU3IDUuMzI3YTEzLjg2OCAxMy44NjggMCAwIDEgNS44IDUuODkzIDEzLjg4NiAxMy44ODYgMCAwIDEgMS40MTggOC4xNDlsLS4wMzUuMjgxbTEyLjQ5LTIxLjQ0NnY5LjY2bS03Ljk1Mi05LjY2djkuNjZtOTYuMzAxIDUuOTc3LTkuMzU0IDIuMzhtNy4zOTQtMTAuMDkzLTkuMzU0IDIuMzg0bS0xNDAuOSA0LjE4MnMtMy4xMjcgMTIuNDk3LjI4MSAyMS44NzVtNS42NzUtMTEuMDc4YTM1LjIgMzUuMiAwIDAgMCAxLjMyMiAxMi40NjIiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0ibTEyNy40NTQgMTAxLjU0NSAxOS40MjcuMjgyIDEwLjMwOSA5Ljk0Ni0zMS43MjYtLjI4NyAxLjk5LTkuOTQxWm0tNS4zOTggMTguMDQySDIwLjk0MWE1LjAyNiA1LjAyNiAwIDAgMS01LjAyNy01LjAzMSA1LjAzMiA1LjAzMiAwIDAgMSA1LjAyNy01LjAzMWg4MC4xMTVsMjEgMTAuMDYyWiIgZmlsbD0iIzAwMCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=" alt="something">
+                        </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Music & sound Design</button>
+                            <div class="dropdown-content">
+                              <a href="#">all design </a>
+                              <a href="#">picture</a>
+                              <a href="#">branding</a>
+                              <a href="#">painting</a>
+                              <a href="#">graphics</a>
+                              <a href="#">entertainment & design</a>
+                              <a href="#">fashion design </a>
+                              <a href="#">fonts</a>
+                              <a href="#">graphics</a>
+                              <a href="#">icons</a>
+                              <a href="#">industrial design</a>
+                              <a href="#">print & packaging</a>
+                              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0IiBoZWlnaHQ9IjE2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTg5Ljg1NyA3Mi4yNDZoLTMuMDQ2bC00LjA3Ny0xMS4zMjVhMTUuMDg4IDE1LjA4OCAwIDAgMC03LjA5Ni04LjIwNSAxNS4wNjcgMTUuMDY3IDAgMCAwLTEwLjc2Mi0xLjMxOGgtLjExMWEzLjI2IDMuMjYgMCAwIDEtMy4yNDItMS41MWwtOS44MzctMTUuNTk2YTE1LjA4NyAxNS4wODcgMCAwIDAtNS41ODYtNi4xMzkgMTUuMDY5IDE1LjA2OSAwIDAgMC03Ljk4NS0yLjI1MmMtMTAuMjQ0LS4xMjYtMjkuNTM1IDQuNTI4LTQyLjI2NyAyMi40NDNhMTUuMTE2IDE1LjExNiAwIDAgMC00LjU3NC0uNTU5bC0yMi4yMDEuNzQtMTEuMjA0LTQuNzhhMjIuNjkgMjIuNjkgMCAwIDAtLjgxLS4zNDFsLS4zMzYtLjE0NmMtOS4xODgtMy44MzQtMTguODM0LTQuMjIxLTI3LjMwOC0xLjA0MmEzMC44OTggMzAuODk4IDAgMCAwLTE3LjQ0NyAxNi4yNGMtLjEuMjI2LS4yMDEuNDUzLS4yOTIuNjg0bC0zLjMwMiA4LjM2MmMtMS4wMDUgMi41MTUtMi41OTQgNy4yOS0yLjU5NCA3LjI5LS42NTggMi42Mi0zLjUxOCAxNS40Ny0uMTk2IDI3LjcxYTIwLjAzNiAyMC4wMzYgMCAwIDAtMy45NDUgMTEuOTU5IDIwLjE2OCAyMC4xNjggMCAwIDAgNS44OTkgMTQuMjE5IDIwLjEzIDIwLjEzIDAgMCAwIDE0LjIwNiA1LjkwNGgxMDIuMjcyYy4yNzItLjAyNS41NDgtLjA1LjgxNC0uMDg1aC4xMjFjLjI3MS0uMDQuNTM4LS4wODYuODA0LS4xMzZsLjE1Ni0uMDNjLjMwMi0uMDY2LjU5OC0uMTM2Ljg5NS0uMjE2aC4wNTVjLjI5Ny0uMDgxLjU4OC0uMTcyLjg4LS4yNzJoLjA1NWMuMjkyLS4xMDYuNTgzLS4yMTYuODY1LS4zMzJsLjEyLS4wNWMuMjc3LS4xMjEuNTQzLS4yNDIuODA5LS4zNzNoLjA0MWMuMjU2LS4xMzEuNTAyLS4yNjYuNzU0LS40MTJsLjIyMS0uMTI2Yy4yMzEtLjE0MS40NTctLjI4Mi42NzgtLjQyOGwuMjM3LS4xNjYuNDYyLS4zNDIuMjcxLS4yMDZjLjE5MS0uMTUxLjM3Ny0uMzEyLjU2My0uNDczbC4yNzctLjI0N2MuMTUxLS4xNC4yOTYtLjI4Ni40NDItLjQzMmE4LjQ4IDguNDggMCAwIDAgLjcxNC0uNzg1Yy4wNi0uMDcuMTI2LS4xNDEuMTg2LS4yMTYuMTgxLS4yMTcuMzU3LS40MzguNTAyLS42NjkuMDM2LS4wNTEuMDc2LS4xMDEuMTExLS4xNTYuMzg1LS41MjguNzM0LTEuMDgxIDEuMDQ2LTEuNjU2di0uMDRsLjAzLS4wNiAyMS42NzkuMTk2aDQ4Ljc1NmExNS4wNyAxNS4wNyAwIDAgMCAxMC42NjItNC40MjEgMTUuMDk4IDE1LjA5OCAwIDAgMCA0LjQxNy0xMC42NzJ2LTcuNjk3YTMxLjg5MyAzMS44OTMgMCAwIDAtOS4zMTktMjIuNDkgMzEuODMyIDMxLjgzMiAwIDAgMC0yMi40NjMtOS4zNDZaIiBmaWxsPSIjOTBBOEVEIiBzdHJva2U9IiMwMDAiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIvPjxwYXRoIGQ9Im0xNjcuNzQgNjYuMDM0IDcuNjY1IDIxLjMwNmgxMy42NDdhMTYuNzA3IDE2LjcwNyAwIDAgMSAxMS44MzYgNC44OTkgMTYuNzMyIDE2LjczMiAwIDAgMSA0LjkwMiAxMS44NDR2Ny42OTJoLTQ4LjI1NGwtNTEuOTQyLTUxLjk5YzExLjYzNi0xOS4zMTkgMzEuNzkyLTE4Ljc1IDMxLjc5Mi0xOC43NSIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJtMTM3LjMzNSA0MS4xMTUgMTAuNjQ2IDE2Ljg2OWExOC4zNCAxOC4zNCAwIDAgMCAxOC4yMTUgOC4zNTZsMS41MDgtLjIyNk0xMTIuMzQ2IDUxLjc2bDQ5LjQ0OSA1MC40MTUgNDMuNDI4LS4wNjEiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEzNi44MTggNzYuNTQzYzguNTE1LTE1LjMzOS41NjgtMzUuNTA4LjU2OC0zNS41MDhtNDUuNyA0Ni44OTdhNS4xMTggNS4xMTggMCAwIDEtNS4xMTIgNS4xMTdoLTExLjA1OGwtNC4wNjctNC42OTRhOS43MyA5LjczIDAgMCAwLTEwLjE3OC0zLjAxOWwtNS41MDkgMS41OW0tMjUuMTA2IDMyLjY2MUwyMS41NzggNzMuMTM3bDMuMzIzLTguNDA3YzMuOTE1LTguNjM5IDE0LjcwMi0xMi4zMjYgMjYuMTAyLTcuMTI0bDE0LjQzIDYuMTc4IDI1LjU0NC0uODVhMTIuOTggMTIuOTggMCAwIDAgMS41OCA5LjQzIDEyLjk1OSAxMi45NTkgMCAwIDAgNy42MDkgNS43ODNsMjYuNTc0IDIuNjg3czQuMjU4IDIyLjEzMS00LjY4NCAzOC43NTNabTIuOTgtOS4zNzlMMjQuOSA2NC43MjgiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEyNi43NDEgODAuODA4cy0yMi41NjQtMS43MDYtMzIuMzU1IDE0LjQ4OU01MC4zNzUgNTcuMzI4YTcuMTg2IDcuMTg2IDAgMCAwIDMuNDUzIDguNTEzbDkuOTU3IDUuMzI3YTEzLjg2OCAxMy44NjggMCAwIDEgNS44IDUuODkzIDEzLjg4NiAxMy44ODYgMCAwIDEgMS40MTggOC4xNDlsLS4wMzUuMjgxbTEyLjQ5LTIxLjQ0NnY5LjY2bS03Ljk1Mi05LjY2djkuNjZtOTYuMzAxIDUuOTc3LTkuMzU0IDIuMzhtNy4zOTQtMTAuMDkzLTkuMzU0IDIuMzg0bS0xNDAuOSA0LjE4MnMtMy4xMjcgMTIuNDk3LjI4MSAyMS44NzVtNS42NzUtMTEuMDc4YTM1LjIgMzUuMiAwIDAgMCAxLjMyMiAxMi40NjIiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0ibTEyNy40NTQgMTAxLjU0NSAxOS40MjcuMjgyIDEwLjMwOSA5Ljk0Ni0zMS43MjYtLjI4NyAxLjk5LTkuOTQxWm0tNS4zOTggMTguMDQySDIwLjk0MWE1LjAyNiA1LjAyNiAwIDAgMS01LjAyNy01LjAzMSA1LjAzMiA1LjAzMiAwIDAgMSA1LjAyNy01LjAzMWg4MC4xMTVsMjEgMTAuMDYyWiIgZmlsbD0iIzAwMCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=" alt="something">
+                            </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Films</button>
+                                <div class="dropdown-content">
+                                  <a href="#">all design </a>
+                                  <a href="#">picture</a>
+                                  <a href="#">branding</a>
+                                  <a href="#">painting</a>
+                                  <a href="#">graphics</a>
+                                  <a href="#">entertainment & design</a>
+                                  <a href="#">fashion design </a>
+                                  <a href="#">fonts</a>
+                                  <a href="#">graphics</a>
+                                  <a href="#">icons</a>
+                                  <a href="#">industrial design</a>
+                                  <a href="#">print & packaging</a>
+                                  <img src="image6.png" alt="something">
+                                </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Software Development</button>
+                                    <div class="dropdown-content">
+                                      <a href="#">all design </a>
+                                      <a href="#">picture</a>
+                                      <a href="#">branding</a>
+                                      <a href="#">painting</a>
+                                      <a href="#">graphics</a>
+                                      <a href="#">entertainment & design</a>
+                                      <a href="#">fashion design </a>
+                                      <a href="#">fonts</a>
+                                      <a href="#">graphics</a>
+                                      <a href="#">icons</a>
+                                      <a href="#">industrial design</a>
+                                      <a href="#">print & packaging</a>
+                                      <img src="image7.png" alt="something">
+                                    </div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Business & money</button>
+                                        <div class="dropdown-content">
+                                          <a href="#">All business & money </a>
+                                          <a href="#">Accounting</a>
+                                          <a href="#">Entrepreneurship</a>
+                                          <a href="#"><ul></ul>gigs & side projects</a>
+                                          <a href="#">graphics</a>
+                                          <a href="#">entertainment & design</a>
+                                          <a href="#">fashion design </a>
+                                          <a href="#">fonts</a>
+                                          <a href="#">graphics</a>
+                                          <a href="#">icons</a>
+                                          <a href="#">industrial design</a>
+                                          <a href="#">print & packaging</a>
+                                          <img src="image8.png" alt="something">
+                                        </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Education</button>
+                                            <div class="dropdown-content">
+                                              <a href="#">All Education</a>
+                                              <a href="#">Classroom</a>
+                                              <a href="#">English</a>
+                                              <a href="#">History</a>
+                                              <a href="#">Math</a>
+                                              <a href="#">science</a>
+                                              <a href="#">social studies</a>
+                                              <a href="#">specialities</a>
+                                              <a href="#">test prep</a>
+                                                                  <img src="image9.png" alt="something">
+                                            </div>
+                                            </div>
+                                            <div class="dropdown">
+                                                <button class="dropbtn">Gaming</button>
+                                                <div class="dropdown-content">
+                                                  <a href="#">All gaming </a>
+                                                  <a href="#">gambling</a>
+                                                  <a href="#">streaming</a>
+                                                 
+                                                  <img src="image10.png" alt="something">
+                                                </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <button class="dropbtn">more</button>
+                                                    <div class="dropdown-content">
+                                                      <a href="#">Photography </a>
+                                                      <a href="#">Writing & Publishing</a>
+                                                      <a href="#">Fitness & Health</a>
+                                                      <a href="#">Comics</a>
+                                                      <a href="#">Audio</a>
+                                                      <a href="#">fiction books</a>
+                                                      <a href="#">record books </a>
+                                                      <a href="#">other</a>
+                                                      
+                                                      
+                                                    </div>
+                                                    </div>
+        </div>
+        <hr>
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>Featured products</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="image27.png" height="300px" width="200px" alt="Chess Not Checkers">
+                <h3>CNC Discord Membership</h3>
+                <p>Chess Not Checkers Community to help you build wealth skills!</p>
+            </div>
+            <div class="product-card">
+                <img src="image34.png" alt="Wars">
+                <h3>Art Wars Poster</h3>
+                <p>A unique poster to inspire and engage.</p>
+            </div>
+            <div class="product-card">
+                <img src="image200.png" alt="Wars">
+                <h3>Hacking with Swift+</h3>
+                <p>The ultimate investment for your Swift programming career!</p>
+            </div>
+            <div class="product-card">
+                <img src="image17.png" alt="Wars">
+                <h3>PRE-SALE: 'BY DAWN I WIN' COLORED El Magador COIN 10 CNT (2024 LTD ED)</h3>
+                <p>**NO REFUNDS OR EXCHANGES</p>
+            </div>
+            <div class="product-card">
+                <img src="image3.png" alt="Wars">
+                <h3>All Products Bundle Package</h3>
+                <p>Every single released piece of Goat content from the July 2023 cycle and the February 2024 cycle AND the J24 cycle.</p>
+            </div>
+            <div class="product-card">
+                <img src="image329.png" alt="Wars">
+                <h3>The Everything Bundle (Lifetime Access to all past, present and future courses)</h3>
+                <p>This is a lifetime course, so I have to charge a lifetime price. (As of 3/25/2024 the price has been upgraded 50% off for CNC members)
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishlist Section -->
+    <section class="wishlist-section">
+        <h2>Wishlists you might like</h2>
+        <div class="wishlist-container">
+            <div class="wishlist-card">
+                <img src="image35.png">
+                <h3>Free Resources</h3>
+                <p>564 products | 541 followers</p>
+            </div>
+            <div class="wishlist-card">
+                <img src="image77.png" alt="Assets">
+                <h3>Free Assets</h3>
+                <p>152 products | 298 followers</p>
+            </div>
+            <div class="wishlist-card">
+                <img src="image11.png" alt="Assets">
+                <h3>VRC Helpful Tools</h3>
+                <p>13 products | 184 followers</p>
+            </div>
+            <div class="wishlist-card">
+                <img src="image90.png" alt="Assets">
+                <h3>Magic Spell System | VRChat avatar asset</h3>
+                <p>152 products | 298 followers</p>
+            </div>
+            
+        </div>
+    </section>
+    
+
+
+    <!-- Market Section -->
+    <!-- Side Menu -->
+     <section class="market-section">
+        <div class="filter-section">
+            <h2>Filters</h2>
+            
+            <!-- Tags Section -->
+            <div class="filter-group">
+                <input type="checkbox" id="tags-toggle" hidden>
+                <label for="tags-toggle" class="filter-title">Tags</label>
+                <div class="filter-options">
+                    <label><input type="checkbox"> vrchat (23001)</label>
+                    <label><input type="checkbox"> 3d model (12039)</label>
+                    <label><input type="checkbox"> notion template (10980)</label>
+                    <label><input type="checkbox"> vrchat asset (10436)</label>
+                    <label><input type="checkbox"> blender (8005)</label>
+                    <a href="#">Load more...</a>
+                </div>
+            </div>
+            
+            <!-- Contains Section -->
+            <div class="filter-group">
+                <input type="checkbox" id="contains-toggle" hidden>
+                <label for="contains-toggle" class="filter-title">Contains</label>
+                <div class="filter-options">
+                    <label><input type="checkbox"> pdf (236240)</label>
+                    <label><input type="checkbox"> zip (208207)</label>
+                    <label><input type="checkbox"> mp4 (59869)</label>
+                    <label><input type="checkbox"> rar (49273)</label>
+                    <label><input type="checkbox"> mp3 (36122)</label>
+                    <a href="#">Load more...</a>
+                </div>
+            </div>
+            
+            <!-- Price Section -->
+            <div class="filter-group">
+                <input type="checkbox" id="price-toggle" hidden>
+                <label for="price-toggle" class="filter-title">Price</label>
+                <div class="filter-options">
+                    <label>Minimum price: <input type="number" min="0" placeholder="$"></label>
+                    <label>Maximum price: <input type="number" min="0" placeholder="$"></label>
+                </div>
+            </div>
+            
+            <!-- Rating Section -->
+            <div class="filter-group">
+                <input type="checkbox" id="rating-toggle" hidden>
+                <label for="rating-toggle" class="filter-title">Rating</label>
+                <div class="filter-options">
+                    <label><input type="radio" name="rating"> ★★★★☆ and up</label>
+                    <label><input type="radio" name="rating"> ★★★☆☆ and up</label>
+                    <label><input type="radio" name="rating"> ★★☆☆☆ and up</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <h1 id="mart">On the Market</h1>
+        <div class="container">
+            
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="image32.png" width="100px" alt="Visuals Mastery">
+                <div class="card-content">
+                    <div class="card-title">Visuals Mastery: Learn How To Create Visual Posts</div>
+                    <div class="card-subtitle">By Visual Hustles</div>
+                    <div class="rating">⭐ 4.8 (16)</div>
+                    <div class="card-price">$54</div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="imageZ.png" alt="Web Designer Bundle">
+                <div class="card-content">
+                    <div class="card-title">Everything Bundle</div>
+                    <div class="card-subtitle">By Anna Hickman</div>
+                    <div class="rating">⭐ 5.0 (1)</div>
+                    <div class="card-price">$179</div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="image20.png" alt="Merch Wordsmith">
+                <div class="card-content">
+                    <div class="card-title">Merch Wordsmith: Turn Words into Wealth with Your Tshirt Designs</div>
+                    <div class="card-subtitle">By Merch Momentum</div>
+                    <div class="rating">⭐ 5.0 (1)</div>
+                    <div class="card-price">$199.99 a month</div>
+                </div>
+            </div>
+        </div>
+            <div class="card">
+                <img src="image43.png" alt="Merch Wordsmith">
+                <div class="card-content">
+                    <div class="card-title">The essential guide to architecture and interior designing - Ebook</div>
+                    <div class="card-subtitle">07Sketches - The essential guide to architecture and interior designing.</div>
+                    <div class="rating">⭐ 4.0 (89)</div>
+                    <div class="card-price">$47 a month</div>
+                </div>
+            </div>
+        </div>
+            
+    </div></section></main>
+    
+    
+      <!-- Footer -->
+      <footer class="foot"><div class="contain">
+        <!-- Subscription Section -->
+        <div class="subscribe-section">
+           <span> <h1>Subscribe to get tips and tactics to grow the way you want.</h1></span>
+            <div class="input-wrapper">
+                <input type="email" placeholder="Your email address" />
+                <button class="subscribe-button">→</button>
+            </div>
+        </div>
+        
+        <!-- Footer Links -->
+        <div class="footer">
+            <div class="links">
+                <div class="column">
+                    <a href="#">Taxes</a>
+                    <a style="display: block;" href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="column">
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Board meetings</a>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="#" class="icon">🐦</a>
+                <a href="#" class="icon">▶</a>
+                <a href="#" class="icon">📷</a>
+                <a href="#" class="icon">f</a>
+                <a href="#" class="icon">📌</a>
+            </div>
+            <div class="copyright">
+                <span>© Gumroad, Inc.</span>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
